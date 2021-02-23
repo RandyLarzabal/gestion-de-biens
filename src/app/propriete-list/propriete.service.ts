@@ -45,13 +45,31 @@ export class ProprieteService {
     adresse: "20 du boucher",
     price: 20000,
     postalCode: "31000",
-    title: "Appartement de ville"
+    title: "Appartement de banlieux"
   }, {
     ownerId: 3,
     adresse: "40 boulevard dupuis",
     price: 15800,
     postalCode: "31000",
+    title: "Appartement de j'aime la vie"
+  }, {
+    ownerId: 1,
+    adresse: "50 jean du dupuis",
+    price: 78967,
+    postalCode: "31000",
     title: "Appartement de ville"
+  }, {
+    ownerId: 1,
+    adresse: "12 du renard",
+    price: 1512370,
+    postalCode: "31000",
+    title: "Appartement de ville"
+  }, {
+    ownerId: 3,
+    adresse: "18 boulevard jean claude",
+    price: 78978,
+    postalCode: "31000",
+    title: "Appartement de jean claude"
   }]
 
   public proprietes$: BehaviorSubject<IPropriete[]> = new BehaviorSubject(this.proprietes);

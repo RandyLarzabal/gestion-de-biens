@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Larzabal",
+    "last_name": "Randy",
+    "login": "Randy1",
+    "password": "AzertyV8",
+    "age": 21,
+    "property": [
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      },
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      },
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      }
+    ]
+  },
+  {
+    "name": "Larzabal",
+    "last_name": "Randy",
+    "login": "Randy2",
+    "password": "AzertyV8",
+    "age": 21,
+    "property": [
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      },
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      },
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      }
+    ]
+  },
+  {
+    "name": "Larzabal",
+    "last_name": "Randy",
+    "login": "Randy3",
+    "password": "AzertyV8",
+    "age": 21,
+    "property": [
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      },
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      },
+      {
+        "title": "Villa à Dubaï",
+        "address": "30 rue Riche",
+        "price": 3000000
+      }
+    ]
+  }
+]

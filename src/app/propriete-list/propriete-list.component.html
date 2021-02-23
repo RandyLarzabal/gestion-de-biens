@@ -1,0 +1,45 @@
+<div class="row">
+  <div *ngFor="let propriete of proprietes">
+      <app-propriete [propriete]="propriete"></app-propriete>
+  </div>
+</div>
+
+<div>
+  <h3>Ajouter une nouvelle propriété</h3>
+  <form (submit)="addPropriete()">
+    <div class="row justify-content-center">
+      <div class="col-8 mb-2">
+        <label class="w-100">
+          Titre de la publication :
+          <input class="w-100" [(ngModel)]="proprieteForm.title" name="title" type="text">
+        </label>
+      </div>
+      <div class="col-8 mb-2">
+        <label class="w-100">
+          Prix du bien :
+          <input class="w-100" [(ngModel)]="proprieteForm.price" name="price" type="text">
+        </label>
+      </div>
+      <div class="col-8 mb-2">
+        <label class="w-100">
+          Adresse du bien :
+          <input class="w-100" [(ngModel)]="proprieteForm.adresse" name="adresse" type="text">
+        </label>
+      </div>
+      <div class="col-8 mb-2">
+        <label class="w-100">
+          Code postale :
+          <input class="w-100" [(ngModel)]="proprieteForm.postalCode" name="postalCode" type="text">
+        </label>
+      </div>
+      <div class="col-8 mb-2">
+
+        <input [(ngModel)]="proprieteForm.ownerId"  name="password" type="hidden">
+
+        <div class="col-12"></div>
+        <button type="submit" class="btn btn-primary ml-3">Nouveau bien</button>
+      </div>
+    </div>
+  </form>
+
+</div>
